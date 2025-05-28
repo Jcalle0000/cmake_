@@ -1,0 +1,28 @@
+Start testing: May 28 16:58 EDT
+----------------------------------------------------------
+1/1 Testing: google_test
+1/1 Test: google_test
+Command: "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/gunit_ex/build/cpp_test"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/gunit_ex/build
+"google_test" start time: May 28 16:58 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from example
+[ RUN      ] example.sum_zero
+[       OK ] example.sum_zero (0 ms)
+[----------] 1 test from example (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"google_test" end time: May 28 16:58 EDT
+"google_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 28 16:58 EDT

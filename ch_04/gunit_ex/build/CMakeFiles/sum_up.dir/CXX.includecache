@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/gunit_ex/sum_integers.hpp
+vector
+-
+
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/gunit_ex/the_main.cpp
+sum_integers.hpp
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/gunit_ex/sum_integers.hpp
+iostream
+-
+string
+-
+vector
+-
+
