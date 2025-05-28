@@ -1,0 +1,6 @@
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/CMakeFiles/edit_cache.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/CMakeFiles/test.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/CMakeFiles/cpp_test_exec.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/CMakeFiles/MAIN_EXEC_NAME.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/CMakeFiles/rebuild_cache.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/CMakeFiles/_sum_integers.dir

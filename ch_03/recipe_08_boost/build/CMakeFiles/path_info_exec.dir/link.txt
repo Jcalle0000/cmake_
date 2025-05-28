@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/path_info_exec.dir/path_info.cpp.o  -o path_info_exec /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_atomic.dylib /usr/local/lib/libboost_system.dylib 

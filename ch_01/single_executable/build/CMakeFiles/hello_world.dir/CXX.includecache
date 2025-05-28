@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_01/single_executable/main_hello.cpp
+cstdlib
+-
+iostream
+-
+string
+-
+

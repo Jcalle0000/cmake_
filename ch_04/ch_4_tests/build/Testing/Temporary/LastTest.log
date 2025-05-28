@@ -1,0 +1,33 @@
+Start testing: May 28 14:01 EDT
+----------------------------------------------------------
+1/2 Testing: bash_test
+1/2 Test: bash_test
+Command: "/bin/bash" "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/the_bash_script.sh" "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/MAIN_EXEC_NAME"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build
+"bash_test" start time: May 28 14:01 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"bash_test" end time: May 28 14:01 EDT
+"bash_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: cpp_test
+2/2 Test: cpp_test
+Command: "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build/cpp_test_exec"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_04/ch_4_tests/build
+"cpp_test" start time: May 28 14:01 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"cpp_test" end time: May 28 14:01 EDT
+"cpp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 28 14:01 EDT

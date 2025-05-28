@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc lib_sum_integers.a  CMakeFiles/_sum_integers.dir/sum_integers.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib lib_sum_integers.a

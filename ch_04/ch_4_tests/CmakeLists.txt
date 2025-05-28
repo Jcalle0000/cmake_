@@ -1,0 +1,39 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+
+project(recipe_01 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# Define the name of the main executable as a variable
+set(MAIN_EXEC_NAME the_main_exec)
+
+# find_package(PythonInterp REQUIRED)
+find_program(BASH_EXECUTABLE NAMES bash REQUIRED)
+
+# DEFINE THE LIBRARY, THE DEPENDENCIES OF THE MAIN EXECUTABLE 
+# example library
+add_library(_sum_integers sum_integers.cpp) # lib exten would be added so it would lib_sum_integers
+
+#main code
+add_executable(MAIN_EXEC_NAME the_main.cpp)
+target_link_libraries(MAIN_EXEC_NAME _sum_integers)
+
+# testing binary
+add_executable(cpp_test_exec the_test.cpp)
+target_link_libraries(cpp_test_exec _sum_integers)
+
+# AND THE TESTING EXECUTABLE
+enable_testing()
+add_test( NAME bash_test COMMAND ${BASH_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/the_bash_script.sh $<TARGET_FILE:MAIN_EXEC_NAME> )
+
+add_test(NAME cpp_test COMMAND $<TARGET_FILE:cpp_test_exec>)
+
+# mkdir -p build
+# cd build
+# cmake ..
+# cmake --build . // does delete all the stale files? 
+# test the executable locally ./the_main_exec 1 2 3 4 5
+
+# run tests
+# ctests

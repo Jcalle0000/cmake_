@@ -1,0 +1,3 @@
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_03/recipe_08_boost/build/CMakeFiles/rebuild_cache.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_03/recipe_08_boost/build/CMakeFiles/edit_cache.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_03/recipe_08_boost/build/CMakeFiles/path_info_exec.dir

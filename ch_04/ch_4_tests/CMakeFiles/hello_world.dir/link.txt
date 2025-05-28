@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/hello_world.dir/the_main.cpp.o CMakeFiles/hello_world.dir/Message.cpp.o  -o hello_world 

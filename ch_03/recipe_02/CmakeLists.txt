@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+
+project( recipe_02_proj LANGUAGES C)
+
+# enforce the use of the c99 for linking with python 
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_EXTENSIONS OFF)
+set(CMAKE_C_STANDARD_REQUIRED on)
+
+find_package(PythonInterp REQUIRED)
+
+# find python header and library
+find_package(PythonLibs ${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR} EXACT REQUIRED )
+
+add_executable(hello_python_exec hello_embedded_python.c)
+
+# link executable to 
+target_include_directories(hello_python_exec PRIVATE ${PYTHON_INCLUDE_DIRS})
+target_link_libraries(hello_python_exec PRIVATE ${PYTHON_LIBRARIES})
+
+# mkdir -p build
+# cd build
+# cmake ..
+
+# execute the build step and run the executable
+# cmake --build
+# ./
+

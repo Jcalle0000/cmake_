@@ -1,0 +1,3 @@
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_03/recipe_02/build/CMakeFiles/rebuild_cache.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_03/recipe_02/build/CMakeFiles/edit_cache.dir
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_03/recipe_02/build/CMakeFiles/hello_python_exec.dir
