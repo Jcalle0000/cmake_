@@ -1,0 +1,16 @@
+Scanning dependencies of target sum_integers
+[ 12%] Building CXX object src/CMakeFiles/sum_integers.dir/sum_integers.cpp.o
+[ 25%] Linking CXX static library libsum_integers.a
+[ 25%] Built target sum_integers
+Scanning dependencies of target sum_up
+[ 37%] Building CXX object src/CMakeFiles/sum_up.dir/main.cpp.o
+[ 50%] Linking CXX executable sum_up
+[ 50%] Built target sum_up
+Scanning dependencies of target test_long
+[ 62%] Building CXX object tests/CMakeFiles/test_long.dir/test_long.cpp.o
+[ 75%] Linking CXX executable test_long
+[ 75%] Built target test_long
+Scanning dependencies of target test_short
+[ 87%] Building CXX object tests/CMakeFiles/test_short.dir/test_short.cpp.o
+[100%] Linking CXX executable test_short
+[100%] Built target test_short

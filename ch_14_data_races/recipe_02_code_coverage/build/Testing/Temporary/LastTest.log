@@ -1,0 +1,33 @@
+Start testing: May 30 13:35 EDT
+----------------------------------------------------------
+1/2 Testing: test_short
+1/2 Test: test_short
+Command: "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_02_code_coverage/build/tests/test_short"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_02_code_coverage/build/tests
+"test_short" start time: May 30 13:35 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_short" end time: May 30 13:35 EDT
+"test_short" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_long
+2/2 Test: test_long
+Command: "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_02_code_coverage/build/tests/test_long"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_02_code_coverage/build/tests
+"test_long" start time: May 30 13:35 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_long" end time: May 30 13:35 EDT
+"test_long" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 30 13:35 EDT

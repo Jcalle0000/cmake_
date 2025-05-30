@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20250529-1845-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="17.0.0.17000013"
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="5120"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Configure>
+		<StartDateTime>May 29 14:45 EDT</StartDateTime>
+		<StartConfigureTime>1748544358</StartConfigureTime>
+		<ConfigureCommand>"/usr/local/Cellar/cmake/3.15.4/bin/cmake" "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/testing_dashboard"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/testing_dashboard/build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>May 29 14:45 EDT</EndDateTime>
+		<EndConfigureTime>1748544358</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

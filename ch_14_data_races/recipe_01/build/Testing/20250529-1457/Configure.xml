@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-x86_64"
+	BuildStamp="20250529-1457-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="5120"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Configure>
+		<StartDateTime>May 29 10:57 EDT</StartDateTime>
+		<StartConfigureTime>1748530637</StartConfigureTime>
+		<ConfigureCommand>"/usr/local/Cellar/cmake/3.15.4/bin/cmake" "-DENABLE_TSAN:BOOL=ON" "-GUnix Makefiles" "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01"</ConfigureCommand>
+		<Log>-- The CXX compiler identification is AppleClang 17.0.0.17000013
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+CMake Warning at CMakeLists.txt:34 (message):
+  ThreadSanitizer not supported for this compiler
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01/build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>May 29 10:57 EDT</EndDateTime>
+		<EndConfigureTime>1748530639</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

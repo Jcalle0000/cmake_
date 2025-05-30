@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-x86_64"
+	BuildStamp="20250530-2012-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="6144"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Build>
+		<StartDateTime>May 30 16:12 EDT</StartDateTime>
+		<StartBuildTime>1748635945</StartBuildTime>
+		<BuildCommand>/usr/local/Cellar/cmake/3.15.4/bin/cmake --build . --config "Debug" -- -i -j12</BuildCommand>
+		<Warning>
+			<BuildLogLine>3</BuildLogLine>
+			<Text>/.../recipe_03_address_santizer/src/buggy.cpp:17:1: warning: non-void function does not return a value [-Wreturn-type]</Text>
+			<SourceFile>src/buggy.cpp</SourceFile>
+			<SourceLineNumber>17</SourceLineNumber>
+			<PreContext>Scanning dependencies of target buggy
+[ 16%] Building CXX object src/CMakeFiles/buggy.dir/buggy.cpp.o
+</PreContext>
+			<PostContext>   17 | }
+      | ^
+1 warning generated.
+[ 33%] Linking CXX static library libbuggy.a
+[ 33%] Built target buggy
+Scanning dependencies of target leaky
+Scanning dependencies of target use_after_free
+[ 66%] Building CXX object tests/CMakeFiles/use_after_free.dir/use_after_free.cpp.o
+[ 66%] Building CXX object tests/CMakeFiles/leaky.dir/leaky.cpp.o
+[100%] Linking CXX executable leaky</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>May 30 16:12 EDT</EndDateTime>
+		<EndBuildTime>1748635946</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

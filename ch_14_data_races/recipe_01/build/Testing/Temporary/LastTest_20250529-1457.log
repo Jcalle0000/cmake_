@@ -1,0 +1,35 @@
+Start testing: May 29 10:57 EDT
+----------------------------------------------------------
+1/1 Testing: example_exe
+1/1 Test: example_exe
+Command: "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01/build/example_exe"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01/build
+"example_exe" start time: May 29 10:57 EDT
+Output:
+----------------------------------------------------------
+thread thread thread thread 01214thread 15 increases thread  increases  increases  increases thread 1thread 7 increases 2
+2 increases 3
+4
+
+thread 5
+9thread thread thread thread  increases 1thread 86 increases 
+7
+4 increases  increases thread 5 increases 9
+1110
+010 increases  increases 8
+11
+12
+6thread 13
+3 increases 13
+ increases 14
+ increases 15
+final s: 16
+<end of output>
+Test time =   1.28 sec
+----------------------------------------------------------
+Test Passed.
+"example_exe" end time: May 29 10:57 EDT
+"example_exe" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: May 29 10:57 EDT

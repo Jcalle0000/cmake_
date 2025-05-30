@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -fprofile-instr-generate -fcoverage-mapping -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/llvm/lib -fprofile-instr-generate -fprofile-instr-generate CMakeFiles/test_short.dir/test_short.cpp.o  -o test_short ../src/libsum_integers.a 

@@ -1,0 +1,14 @@
+-- The CXX compiler identification is AppleClang 17.0.0.17000013
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at src/CMakeLists.txt:26:
+  Parse error.  Expected a newline, got identifier with text "else".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/$CTEST_SCRIPT_DIRECTORY/build/CMakeFiles/CMakeOutput.log".
+See also "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/$CTEST_SCRIPT_DIRECTORY/build/CMakeFiles/CMakeError.log".

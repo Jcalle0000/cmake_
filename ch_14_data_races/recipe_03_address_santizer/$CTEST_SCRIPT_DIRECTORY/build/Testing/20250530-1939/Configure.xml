@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-x86_64"
+	BuildStamp="20250530-1939-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="6144"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Configure>
+		<StartDateTime>May 30 15:39 EDT</StartDateTime>
+		<StartConfigureTime>1748633969</StartConfigureTime>
+		<ConfigureCommand>"/usr/local/Cellar/cmake/3.15.4/bin/cmake" "-DENABLE_ASAN:BOOL=ON" "-GUnix Makefiles" "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer"</ConfigureCommand>
+		<Log>-- The CXX compiler identification is AppleClang 17.0.0.17000013
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at src/CMakeLists.txt:26:
+  Parse error.  Expected a newline, got identifier with text "else".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/$CTEST_SCRIPT_DIRECTORY/build/CMakeFiles/CMakeOutput.log".
+See also "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/$CTEST_SCRIPT_DIRECTORY/build/CMakeFiles/CMakeError.log".
+</Log>
+		<ConfigureStatus>1</ConfigureStatus>
+		<EndDateTime>May 30 15:39 EDT</EndDateTime>
+		<EndConfigureTime>1748633970</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libbuggy.a  CMakeFiles/buggy.dir/buggy.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libbuggy.a

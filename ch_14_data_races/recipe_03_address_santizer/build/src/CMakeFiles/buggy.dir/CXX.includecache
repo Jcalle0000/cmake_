@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/src/buggy.cpp
+buggy.hpp
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/src/buggy.hpp
+iostream
+-
+
+/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/src/buggy.hpp
+

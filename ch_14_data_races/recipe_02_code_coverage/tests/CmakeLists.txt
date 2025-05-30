@@ -1,0 +1,30 @@
+add_executable(test_short test_short.cpp)
+target_link_libraries(test_short sum_integers) # connect executable to library
+
+add_executable(test_long test_long.cpp)
+target_link_libraries(test_long sum_integers)
+
+# add_test(NAME
+#     test_short COMMAND $<TARGET_FILE:test_short>
+# )
+
+# add_test(NAME
+#     test_long COMMAND $<TARGET_FILE:test_long>
+# )
+
+# Set LLVM_PROFILE_FILE so Clang will generate .profraw files
+# add_test(NAME test_short
+#   COMMAND ${CMAKE_COMMAND} -E env LLVM_PROFILE_FILE=test_short_%p.profraw $<TARGET_FILE:test_short>
+# )
+
+# add_test(NAME test_long
+#   COMMAND ${CMAKE_COMMAND} -E env LLVM_PROFILE_FILE=test_long_%p.profraw $<TARGET_FILE:test_long>
+# )
+
+add_test(NAME test_short COMMAND $<TARGET_FILE:test_short>)
+add_test(NAME test_long  COMMAND $<TARGET_FILE:test_long>)
+
+
+# ✅ Set the environment variable properly for each test
+set_tests_properties(test_short PROPERTIES ENVIRONMENT "LLVM_PROFILE_FILE=test_short_%p.profraw")
+set_tests_properties(test_long  PROPERTIES ENVIRONMENT "LLVM_PROFILE_FILE=test_long_%p.profraw")

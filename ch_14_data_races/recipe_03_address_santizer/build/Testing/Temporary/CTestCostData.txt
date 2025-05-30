@@ -1,0 +1,4 @@
+leaky 3 0.548029
+use_after_free 0 0
+---
+use_after_free

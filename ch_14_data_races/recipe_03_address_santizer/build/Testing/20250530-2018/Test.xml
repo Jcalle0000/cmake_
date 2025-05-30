@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-x86_64"
+	BuildStamp="20250530-2018-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="6144"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Testing>
+		<StartDateTime>May 30 16:18 EDT</StartDateTime>
+		<StartTestTime>1748636315</StartTestTime>
+		<TestList>
+			<Test>./tests/leaky</Test>
+			<Test>./tests/use_after_free</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>leaky</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/leaky</FullName>
+			<FullCommandLine>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests/leaky</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.133944</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests/leaky</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>use_after_free</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/use_after_free</FullName>
+			<FullCommandLine>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests/use_after_free</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Child aborted</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>0</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.358504</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests/use_after_free</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytVtFu2jAUfc9XXGkvoI3KQBICEpPY1nWV2rWC7mGrJuTENnhN48g2LfTrdx0CAcbUrpnFS3x8r8859r1mOKw5vOEwIhEhw+HpeHw1HsCIMc2NmdBMWvnE9QDmnOatheEtKizXLaE5B5UBXS8Esgw7ASmGzyKgFvIEJ/GzTXpht+9TBnGOMz0henEUJSFvEzD7MyTyxqejT6AEGNwVijwHme1cc8x1QzzA8Ybsb5KAzABZTguWU8ey0YR4MZutTpI8H7TDdVh7vS+Kjjv9oCNcmLFU27dkGXMBDbZK2WAZhdPQxylRDR7i8qbnHdCSBlKVUMsZ9CMf4pXlBpMaybiTg96SlpsEzWcSfbvdiW8T8q767BCfND3HHB1bVXrxBDQfHKqOA+r7zNGf/mD0+gHJ9hg0UhknKc1mU21PqKHZVJnllK0yei+TE9Qm41LcHAMowxTNypjKz4A+52ewDuvU9jPX/EGqhUlXQNONlS/ST7qlflT3OvmY4ah8Xzwn3/9f8iffLi9H4+8vrbzdG32MozeZU6Yey3tItVpkDK0sAzdV69zcuYcdQgYg2D/9DjJEdTN0a3Po1ubgv4bD8P1uhpdwuBXs5185BLV9CGr7ENbmENbm0HsNh53LDymfcbz7DZVxMDvzmmPHMTyzxj0zeZ5KbDmuMxcl03SlUZYijVM+gGoQ9/RcY3FLbFTbWlqvIthAsBl0gfhAAiAhkB7g8i9Yw0hFWNyXPSGXTUJBEf1cNHtX5+XzsEWdGxNLk7tjwaK9Re8l+yNzZ4tqOZsfBIvuFi36BqJ2oTcbi2CLYmcpV5hE5UW0iBA9S1VM08NNHdqvUIlNDJRmro2VqHuAr5U0GFT0d8y/BUH0EP2oMktlhjuqB65Fqh43rBJ3KFrTFSRK3cm9UwHq0PPMagoq/sWTfcFx7GKxqyInFJPRdDdYcEQvnMPrt2dfVuLOaFx4eARO4urf0+jD1fjm/OuZ9xuRVsdo====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 30 16:18 EDT</EndDateTime>
+		<EndTestTime>1748636315</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

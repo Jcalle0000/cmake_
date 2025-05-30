@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/llvm/lib -fsanitize=address CMakeFiles/use_after_free.dir/use_after_free.cpp.o  -o use_after_free ../src/libbuggy.a 

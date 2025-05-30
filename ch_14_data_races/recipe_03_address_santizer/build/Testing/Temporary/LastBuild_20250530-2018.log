@@ -1,0 +1,3 @@
+[ 33%] Built target buggy
+[100%] Built target use_after_free
+[100%] Built target leaky

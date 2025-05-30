@@ -1,0 +1,83 @@
+Start testing: May 30 16:18 EDT
+----------------------------------------------------------
+1/2 Testing: leaky
+1/2 Test: leaky
+Command: "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests/leaky"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests
+"leaky" start time: May 30 16:18 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"leaky" end time: May 30 16:18 EDT
+"leaky" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: use_after_free
+2/2 Test: use_after_free
+Command: "/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests/use_after_free"
+Directory: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_03_address_santizer/build/tests
+"use_after_free" start time: May 30 16:18 EDT
+Output:
+----------------------------------------------------------
+=================================================================
+==80800==ERROR: AddressSanitizer: heap-use-after-free on address 0x6250000004d8 at pc 0x0001076394ad bp 0x7ff7b88c6e10 sp 0x7ff7b88c6e08
+READ of size 8 at 0x6250000004d8 thread T0
+    #0 0x0001076394ac in use_after_free() buggy.cpp:16
+    #1 0x7ff808b2952f in start+0xbef (dyld:x86_64+0xfffffffffffe652f)
+
+0x6250000004d8 is located 984 bytes inside of 8000-byte region [0x625000000100,0x625000002040)
+freed by thread T0 here:
+    #0 0x000107b5a44d in _ZdaPv+0x7d (libclang_rt.asan_osx_dynamic.dylib:x86_64h+0xad44d)
+    #1 0x00010763945a in use_after_free() buggy.cpp:15
+    #2 0x7ff808b2952f in start+0xbef (dyld:x86_64+0xfffffffffffe652f)
+
+previously allocated by thread T0 here:
+    #0 0x000107b5a03d in _Znam+0x7d (libclang_rt.asan_osx_dynamic.dylib:x86_64h+0xad03d)
+    #1 0x00010763944f in use_after_free() buggy.cpp:14
+    #2 0x7ff808b2952f in start+0xbef (dyld:x86_64+0xfffffffffffe652f)
+
+SUMMARY: AddressSanitizer: heap-use-after-free buggy.cpp:16 in use_after_free()
+Shadow bytes around the buggy address:
+  0x625000000200: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000280: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000300: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000380: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000400: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+=>0x625000000480: fd fd fd fd fd fd fd fd fd fd fd[fd]fd fd fd fd
+  0x625000000500: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000580: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000600: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000680: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x625000000700: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==80800==ABORTING
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Failed.
+"use_after_free" end time: May 30 16:18 EDT
+"use_after_free" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 30 16:18 EDT

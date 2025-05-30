@@ -1,0 +1,9 @@
+Upload files:
+0	Configure.xml
+1	Build.xml
+2	Test.xml
+3	Done.xml
+	Upload file: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01/build/Testing/20250529-1457/Configure.xml to MacBookPro___Darwin-x86_64___20250529-1457-Experimental___XML___Configure.xml
+   Error when uploading file: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01/build/Testing/20250529-1457/Configure.xml
+   Error message was: URL rejected: No host part in the URL
+   Problems when submitting via HTTP

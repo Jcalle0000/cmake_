@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20250529-1845-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="17.0.0.17000013"
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="5120"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Testing>
+		<StartDateTime>May 29 14:45 EDT</StartDateTime>
+		<StartTestTime>1748544359</StartTestTime>
+		<TestList>
+			<Test>./tests/test_short</Test>
+			<Test>./tests/test_long</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_short</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/test_short</FullName>
+			<FullCommandLine>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/testing_dashboard/build/tests/test_short</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00595667</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/testing_dashboard/build/tests/test_short</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_long</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/test_long</FullName>
+			<FullCommandLine>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/testing_dashboard/build/tests/test_long</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00658326</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/testing_dashboard/build/tests/test_long</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 29 14:45 EDT</EndDateTime>
+		<EndTestTime>1748544359</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

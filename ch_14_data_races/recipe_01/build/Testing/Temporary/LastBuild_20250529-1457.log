@@ -1,0 +1,4 @@
+Scanning dependencies of target example_exe
+[ 50%] Building CXX object CMakeFiles/example_exe.dir/the_main.cpp.o
+[100%] Linking CXX executable example_exe
+[100%] Built target example_exe

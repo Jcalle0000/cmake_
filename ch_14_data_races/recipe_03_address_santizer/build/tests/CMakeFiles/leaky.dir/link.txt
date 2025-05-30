@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/llvm/lib -fsanitize=address CMakeFiles/leaky.dir/leaky.cpp.o  -o leaky ../src/libbuggy.a 

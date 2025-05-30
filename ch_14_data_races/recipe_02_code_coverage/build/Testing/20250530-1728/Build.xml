@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20250530-1728-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="17.0.0.17000013"
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="5120"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Build>
+		<StartDateTime>May 30 13:28 EDT</StartDateTime>
+		<StartBuildTime>1748626108</StartBuildTime>
+		<BuildCommand>/usr/local/Cellar/cmake/3.15.4/bin/cmake --build . --config "Release"</BuildCommand>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>May 30 13:28 EDT</EndDateTime>
+		<EndBuildTime>1748626112</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

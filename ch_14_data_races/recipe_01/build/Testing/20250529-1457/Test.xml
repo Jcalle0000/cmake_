@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-x86_64"
+	BuildStamp="20250529-1457-Experimental"
+	Name="MacBookPro"
+	Generator="ctest-3.15.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="MacBookPro"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="5120"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2600"
+	>
+	<Testing>
+		<StartDateTime>May 29 10:57 EDT</StartDateTime>
+		<StartTestTime>1748530641</StartTestTime>
+		<TestList>
+			<Test>./example_exe</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>example_exe</Name>
+			<Path>.</Path>
+			<FullName>./example_exe</FullName>
+			<FullCommandLine>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01/build/example_exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.27668</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_01/build/example_exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJx9T8kJgDAQ/E8VKSGTU+1GPFCQPIz9o48EVgy+do49Zq/tXMZZXa2iaegKpld7mh6Yl1x9obRhnS01CsvACGbhgNLl0TfTfI/WvV0QIiLcbxr5SA+SGpq6PdI9PmgQ6icWVgawkMy9mMe6p/FQeVAMuAE7MXYd====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 29 10:57 EDT</EndDateTime>
+		<EndTestTime>1748530642</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

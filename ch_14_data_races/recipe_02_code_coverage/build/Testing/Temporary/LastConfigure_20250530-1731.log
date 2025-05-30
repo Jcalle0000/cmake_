@@ -1,0 +1,4 @@
+-- Coverage analysis with llvm-profdata and llvm-cov enabled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jasoncalle/Desktop/2025/cmake_cookbook_examples/ch_14_data_races/recipe_02_code_coverage/build
